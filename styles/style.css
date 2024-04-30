@@ -270,6 +270,7 @@ button[type="submit"]:active {
 
 .search-form__textfield {
   pointer-events: none;
+  text-decoration: none
 }
 
 .search-form__text-input {
@@ -288,8 +289,9 @@ button[type="submit"]:active {
 
 .search-form__textfield:active {
   outline: none;
-  border: none;
+  text-decoration: none;
 }
+
 
 .search-form__label:hover {
   text-decoration: underline;
@@ -302,6 +304,10 @@ button[type="submit"]:active {
 
 .content__video-card:hover {
   text-decoration: underline;
+}
+
+.search-form__text-input:hover{
+  text-decoration: none;
 }
 
 .content__video-card:active {
